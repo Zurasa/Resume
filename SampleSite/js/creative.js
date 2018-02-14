@@ -21,6 +21,11 @@
         $('.navbar-toggle:visible').click();
     });
 
+    //Collapses the Mobile Nav Menu when the user clicks off of it
+    $(document).on('click',function(){
+        $('.navbar-collapse').collapse('hide');
+      })
+
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
