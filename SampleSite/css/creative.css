@@ -27,7 +27,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #455A64;
 }
 h1,
 h2,
@@ -77,12 +77,13 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: white;
+  color: #455A64;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: White;
+  background-color: #303f9f;
+  color: white;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -90,7 +91,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: White;
+  color: white;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -281,7 +282,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #303f9f;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
